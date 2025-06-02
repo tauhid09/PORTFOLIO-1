@@ -4,7 +4,10 @@
 }
 
 body {
-    overflow-x:hidden;
+    overflow-x: hidden;
+    background-image: url(images/background-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header {
@@ -61,7 +64,10 @@ li>ul>a {
 li>ul>a:hover {
     text-decoration: underline;
 }
-
+.page{
+    width: 100vw;
+    height: ;
+}
 #home {
     width: 100vw;
     position: relative;
@@ -71,11 +77,6 @@ li>ul>a:hover {
 
 #home>img {
     width: 100vw;
-}
-
-#background-1 {
-    position: absolute;
-    z-index: 1;
 }
 
 #portfolio {
@@ -91,15 +92,11 @@ li>ul>a:hover {
     color: black;
     z-index: 2;
 }
+
 #background-2 {
     position: absolute;
     z-index: 3;
     left: 10%;
-    top: 7%;
+    top: 6%;
     max-width: 80vw;
-}
-#background-3{
-    position: relative;
-    top: 81%;
-    z-index: 1;
 }
