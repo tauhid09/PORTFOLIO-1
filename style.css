@@ -19,7 +19,7 @@ header {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     box-shadow: 5px 9px 10px rgba(0, 0, 0, 0.342);
-    background: rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, 0.27);
     backdrop-filter: blur(18px);
 }
 
@@ -76,20 +76,20 @@ li>ul>a:hover {
 }
 
 #home>img {
-    width: 100vw;
+    width: 100%;
 }
 
 #portfolio {
     position: absolute;
-    top: 6%;
+    top: 0%;
     margin-top: 80px;
     left: 21%;
     text-shadow: 5px 9px 10px rgba(0, 0, 0, 0.422);
     font-size: 60px;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 150px;
-    color: black;
+    font-weight:bold;
+    font-size: 180px;
+    color: rgb(0, 0, 0);
     z-index: 2;
 }
 
@@ -97,6 +97,23 @@ li>ul>a:hover {
     position: absolute;
     z-index: 3;
     left: 10%;
-    top: 6%;
+    top: 5.5%;
     max-width: 80vw;
+}
+#page-2{
+    border: 2px solid rgba(0, 0, 0, 0.471);
+    /* background-color: rgba(0, 0, 0, 0.471); */
+    width: 100vw;
+    margin-top: 180px;
+    height: 600px ;
+    align-content: center;
+}
+.profile-pics{
+    border: 1px solid black;
+    width: 800px;
+    justify-content: center;
+}
+.profile-pics > img{
+    width: 400px;
+    
 }
