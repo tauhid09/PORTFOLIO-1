@@ -70,7 +70,7 @@ li>ul>a:hover {
     text-decoration: underline;
 }
 
-#symbols {
+/* #symbols {
     top: 15%;
     width: 100vw;
     height: 600px;
@@ -84,11 +84,10 @@ li>ul>a:hover {
     width: 100px;
     opacity: 0.4;
     filter: drop-shadow(5px -5px 10px rgb(0, 0, 0));
-}
+} */
 
 .page {
     width: 100vw;
-    height: ;
 }
 
 #home {
@@ -122,11 +121,9 @@ li>ul>a:hover {
     left: 10%;
     top: 5.5%;
     max-width: 80vw;
-    filter: drop-shadow(15px 10px 15px black);
 }
 
 #page-2 {
-    /* border: 2px solid rgba(0, 0, 0, 0.471); */
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
     background-color: rgba(0, 0, 0, 0.193);
