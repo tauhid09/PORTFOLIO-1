@@ -101,7 +101,7 @@ li>ul>a:hover {
     width: 100%;
 }
 
-#portfolio {
+#title {
     position: absolute;
     top: 0%;
     margin-top: 80px;
@@ -114,7 +114,15 @@ li>ul>a:hover {
     color: rgba(0, 0, 0, 0.614);
     z-index: 2;
 }
+#upper-title{
+    position: absolute;
+    font-size: 35px;
+    color: red;
+    font-weight: bold;
+    top: 16%;
+    left: 15%;
 
+}
 #background-2 {
     position: absolute;
     z-index: 3;
