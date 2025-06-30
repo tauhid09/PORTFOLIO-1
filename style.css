@@ -24,7 +24,7 @@ header {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     box-shadow: 5px 9px 10px rgba(0, 0, 0, 0.342);
-    background: rgba(255, 255, 255, 0.27);
+    background: rgba(255, 255, 255, 0.552);
     backdrop-filter: blur(18px);
 }
 
@@ -35,7 +35,7 @@ header {
     margin-left: 10px;
 }
 
-.box>#sub-box-1>h1 {
+#sub-box-1>h1 {
     font-family: Playfair Display;
     font-size: 30px;
 }
@@ -132,9 +132,9 @@ li>ul>a:hover {
 }
 
 #page-2 {
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-    background-color: rgba(0, 0, 0, 0.193);
+    /* border-top-left-radius: 40px;
+    border-top-right-radius: 40px; */
+    background-color: rgb(17, 23, 48);
     box-shadow: 10px -15px 15px rgba(0, 0, 0, 0.537);
     width: 100vw;
     height: 700px;
@@ -145,68 +145,21 @@ li>ul>a:hover {
 }
 
 #aboutme {
-    height: 500px;
-    box-shadow: 5px 9px 10px rgba(0, 0, 0, 0.342);
-    width: 1400px;
-    border-radius: 40px;
-    background-color: rgba(205, 205, 205, 0.567);
-    justify-content: space-around;
-    align-items: center;
-    display: flex;
-    z-index: 5;
-    border-top-left-radius: 300px;
-    border-bottom-left-radius: 300px;
+    position: static;
+    top: 5%;
+    width: 100vw;
+    height: 90vh;
+    border: 2px solid white;
 }
-
-#aboutme:hover {
-    z-index: 7;
-    box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.479);
-
+#heading{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    /* width: 65px; */
+    /* border: 2px solid white; */
 }
-
-#aboutme>img {
-    position: relative;
-    border-radius: 50%;
-    box-shadow: 5px 9px 10px rgba(0, 0, 0, 0.397);
-    top: 0%;
-    left: -4%;
-    width: 485px;
-}
-
-#para {
-    /* border: 1px solid black; */
-    width: 700px;
-    height: 500px;
-}
-
-#p1 {
-    margin: 50px 20px 20px 0;
-}
-
-#p1>h1 {
-    font-size: 50px;
-}
-
-#p1>h3 {
-    margin-top: 10px;
-}
-
-#p2 {
-    margin-top: 50px;
-    /* border: 1px solid black; */
-}
-
-#p2>p {
-    font-size: 20px;
-    margin-top: 20px;
-}
-
-#connection {
-    /* border: 1px solid black; */
-    width: 350px;
-    margin: 15px 0 0 0;
-}
-
-.icon {
-    width: 50px;
+#heading>h1{
+    color: whitesmoke;
+    font-family: Playfair Display;
+    font-size: 80px;
 }
