@@ -70,21 +70,7 @@ li>ul>a:hover {
     text-decoration: underline;
 }
 
-/* #symbols {
-    top: 15%;
-    width: 100vw;
-    height: 600px;
-    z-index: 3;
-    position: absolute;
-}
 
-.symbols-icon {
-    transform: rotate(45deg);
-    position: absolute;
-    width: 100px;
-    opacity: 0.4;
-    filter: drop-shadow(5px -5px 10px rgb(0, 0, 0));
-} */
 
 .page {
     width: 100vw;
@@ -134,7 +120,7 @@ li>ul>a:hover {
 #page-2 {
     /* border-top-left-radius: 40px;
     border-top-right-radius: 40px; */
-    background-color: rgb(17, 23, 48);
+    background-color: rgb(208, 207, 207);
     box-shadow: 10px -15px 15px rgba(0, 0, 0, 0.537);
     width: 100vw;
     height: 700px;
@@ -145,21 +131,22 @@ li>ul>a:hover {
 }
 
 #aboutme {
-    position: static;
+    position: relative;
     top: 5%;
     width: 100vw;
     height: 90vh;
-    border: 2px solid white;
+    border: 2px solid rgb(0, 0, 0);
 }
 #heading{
-    position: absolute;
-    top: 15%;
-    left: 10%;
+    /* position:absolute; */
+    /* top: 15%;
+    left: 10%; */
+    align-self: center;
     /* width: 65px; */
     /* border: 2px solid white; */
 }
 #heading>h1{
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     font-family: Playfair Display;
     font-size: 80px;
 }
