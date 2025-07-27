@@ -6,19 +6,30 @@
 body{
     width: 100vw;
     background-size: cover;
+    overflow-x: hidden;
 }
 #nav{
+    z-index: 10;
     position: fixed;
-    margin: 10px;
-    width: 98.5vw;
+    margin-top: 10px;
+    justify-self: center;
+    width: 70vw;
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.526);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(40px);
+    box-shadow: 5px 10px 40px black;
     color: white;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+#nav:hover{
+    transform: scale(1.01);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
 }
 #left-side{
     margin-left: 20px;
@@ -62,7 +73,9 @@ body{
 }
 #right-side ul li img {
     width: 30px;
-    color: #0000ff;
+}
+#right-side ul li img:hover{
+    filter: drop-shadow(0 0 5px #ffffff) drop-shadow(0 0 15px #ffffff);
 }
 .page{
     width: 100vw;
@@ -71,4 +84,39 @@ body{
 #home{
     background-image:url(images/background-1.png);
     background-size: cover;
+}
+#home h1{
+    user-select: none;
+    color: #000000d0;
+    position: absolute;
+    top: 20%;
+    height: 200px;
+    top: 20%;
+    font-size: 8rem;
+    width: 100vw;
+    font-family:  "Special Gothic Expanded One", sans-serif;
+    z-index: 1;
+}
+#home img{
+    user-select: none;
+    z-index: 2;
+    position: absolute;
+    left: 29%;
+    top: 22%;
+    width: 40rem;
+}
+#about{
+    background-color: #ece9e9;
+    display:flex;
+}
+#title-about{
+    width: 100vw;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    /* transform: rotateX(90deg) */
+}
+#title-about h1{
+    color: black;
 }
