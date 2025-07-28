@@ -82,6 +82,7 @@ body{
     height: 100vh;
 }
 #home{
+    position: relative;
     background-image:url(images/background-1.png);
     background-size: cover;
 }
@@ -106,17 +107,35 @@ body{
     width: 40rem;
 }
 #about{
-    background-color: #ece9e9;
-    display:flex;
+    position: relative;
+    background-color: #CCCDCF;
 }
 #title-about{
     width: 100vw;
-    height: 40px;
-    border: 1px solid black;
+    height: 30vh;
     display: flex;
     justify-content: center;
-    /* transform: rotateX(90deg) */
+    font-family:  "Special Gothic Expanded One", sans-serif;
 }
 #title-about h1{
     color: black;
+    font-size: 9rem;
+}
+#para-about p{
+    margin-left: 20px;
+}
+#hello,#im{
+    width: 50%;
+    height: 40px;
+    border: 1px solid black;
+    font-size: 2.5rem ;
+}
+#im{
+    color: rgba(0, 0, 0, 0.714);
+}
+#para{
+    border: 1px solid black;
+    width: 50%;
+    height: 300px;
+    font-size: 1.5rem;
 }
