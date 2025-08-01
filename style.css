@@ -80,6 +80,7 @@ body{
 .page{
     width: 100vw;
     height: 100vh;
+    background-color: #CCCDCF;
 }
 #home{
     position: relative;
@@ -108,7 +109,6 @@ body{
 }
 #about{
     position: relative;
-    background-color: #CCCDCF;
     font-family: Arial, Helvetica, sans-serif;
 }
 #title-about{
@@ -139,3 +139,71 @@ body{
     font-size: 1.5rem;
     font-weight: 800;
 } */
+
+#highlights{
+    display: flexbox;
+    flex-direction: row;
+    font-family:  "Special Gothic Expanded One", sans-serif;
+}
+#highlights h1{
+    width: 100vw;
+    height: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content:center;
+    color: black;
+    font-size: 8rem;
+    font-weight: 300;
+}
+#section{
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+#section button{
+    width: 500px;
+    border: none;
+    background-color: #CCCDCF;
+    border-left: 1px solid black;
+}
+#section button:hover{
+    background-color: #b3b3b4;
+    cursor: pointer;
+}
+#section button :focus{
+    border-bottom: 2px solid black;
+}
+#section-items{
+    position: relative;
+    width: 100vw;
+    /* border: 1px solid black; */
+    height: 480px;
+}
+#project-items{
+    overflow: scroll;
+    overflow-y: hidden;
+    position: absolute;
+    visibility: visible;
+}
+#work-exp{
+    overflow: scroll;
+    overflow-y: hidden;
+    position: absolute;
+    visibility: hidden;
+}
+#certificate-items{
+    overflow: scroll;
+    overflow-y: hidden;
+    position: absolute;
+    visibility: hidden;
+}
+#achievement-items{
+    height: auto;
+    overflow: scroll;
+    overflow-y: hidden;
+    position: absolute;
+    visibility: hidden;
+}
