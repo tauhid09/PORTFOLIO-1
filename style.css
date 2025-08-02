@@ -227,6 +227,7 @@ body {
 
 #project-items {
     visibility: visible;
+    border-bottom: 2px solid black;
 }
 #work-exp,
 #certificate-items,
@@ -234,10 +235,26 @@ body {
     visibility: hidden;
 }
 .project-img {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 450px;
     height: 300px;
     margin: 50px;
     flex-shrink: 0;
     border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+
+}
+#pinterest{
+  background-image: url(images/pinterest.png);
+}
+#youtube{
+  background-image: url(images/youtube.png);
+}
+#login-reg{
+  background-image: url(images/login.png);
+}
+#googleform{
+  background-image: url(images/google-form.png);
 }
