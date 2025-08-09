@@ -101,7 +101,7 @@ body {
 #home {
   position: relative;
   /* background-image: url(images/background-1.png); */
-  background-color: #030303;
+  background-color: #dbcece;
   background-size: cover;
 }
 
@@ -125,7 +125,7 @@ body {
   position: absolute;
   left: 34%;
   top: 22%;
-  width: 30rem;
+  width: 32rem;
 }
 
 #about {
