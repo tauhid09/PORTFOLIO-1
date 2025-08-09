@@ -10,6 +10,9 @@ body {
   overflow-x: hidden;
 }
 
+#circle1{
+    top: 50%;
+}
 #nav {
   z-index: 10;
   position: fixed;
@@ -96,12 +99,12 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: #000001;
+  position: absolute;
+  z-index: 3;
 }
 
 #home {
   position: relative;
-  /* background-image: url(images/background-1.png); */
-  background-color: #dbcece;
   background-size: cover;
 }
 
@@ -115,17 +118,17 @@ body {
   font-size: 8rem;
   width: 100vw;
   font-family: "Special Gothic Expanded One", sans-serif;
-  z-index: 1;
+  z-index: 4;
   filter: drop-shadow(0 0 2px #ffffff) drop-shadow(0 0 8px #ffffff);
 }
 
 #home img {
   user-select: none;
-  z-index: 2;
+  z-index: 5;
   position: absolute;
-  left: 34%;
+  left: 20%;
   top: 22%;
-  width: 32rem;
+  width: 59.5rem;
 }
 
 #about {
@@ -149,11 +152,7 @@ body {
   font-size: 8rem;
 }
 
-#para-about p {
-  margin-left: 20px;
-  text-align: center;
-  font-size: 1.5rem;
-}
+
 #para span{
   font-size: 1.9rem;
   font-weight: 600;
@@ -163,46 +162,18 @@ body {
 #para {
   position: absolute;
   top: 42%;
-  left: 20%;
+  left: 2%;
   width: 53%;
   height: 400px;
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   padding: 10px;
-  text-align: start;
   font-family:  "Sen", sans-serif;
   font-weight: 200;
   /* border: 1px solid white; */
   color: #e4e4e4;
-}
-
-#skills-about{
-  /* border: 1px solid white; */
-  position: absolute;
-  width: 300px;
-  height: 400px;
-  left: 78%;
-  top: 43%;
-}
-.graph{
-  width: 200px;
-  height: 15px;
-  border: 1px solid white;
-  border-radius: 10px;
-}
-
-.range{
-  background-color: #ffffff;
-  width: 50%;
-  height: 100%;
-  border-radius: 10px;
-}
-#skills-about ul{
-  list-style: none;
-}
-#skills-about ul li{
-  margin: 10px;
-  margin-bottom: 20px;
-  font-size: 1rem;
+  margin-left: 20px;
+  text-align: left;
+  font-size: 1.5rem;
 }
 
 #highlights {
@@ -214,7 +185,7 @@ body {
 #highlights h1 {
   width: 100vw;
   height: 200px;
-  /* border: 1px solid black; */
+  /* border: 1px solid white; */
   display: flex;
   justify-content: center;
   color: white;
@@ -223,7 +194,6 @@ body {
 }
 
 #section {
-  /* border: 1px solid black; */
   width: 100vw;
   height: 50px;
   display: flex;
@@ -245,13 +215,13 @@ body {
 }
 
 #section button :focus {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid rgb(255, 255, 255);
 }
 
 #section-items {
   position: relative;
   width: 100vw;
-  border: 1px solid black;
+  /* border: 1px solid rgb(255, 255, 255); */
   display: flex;
   height: 480px;
 }
