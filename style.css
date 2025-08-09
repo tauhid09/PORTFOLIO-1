@@ -101,7 +101,7 @@ body {
 #home {
   position: relative;
   /* background-image: url(images/background-1.png); */
-  background-color: #000001;
+  background-color: #030303;
   background-size: cover;
 }
 
@@ -171,17 +171,17 @@ body {
   text-align: start;
   font-family:  "Sen", sans-serif;
   font-weight: 200;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   color: #e4e4e4;
 }
 
 #skills-about{
-  border: 1px solid white;
+  /* border: 1px solid white; */
   position: absolute;
   width: 300px;
   height: 400px;
   left: 78%;
-  top: 42%;
+  top: 43%;
 }
 .graph{
   width: 200px;
@@ -198,11 +198,10 @@ body {
 }
 #skills-about ul{
   list-style: none;
-  display: flexbox;
-  justify-content: stretch;
 }
 #skills-about ul li{
   margin: 10px;
+  margin-bottom: 20px;
   font-size: 1rem;
 }
 
