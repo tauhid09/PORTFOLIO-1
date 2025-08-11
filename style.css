@@ -149,11 +149,15 @@ body {
   font-family: "Special Gothic Expanded One", sans-serif;
   position: absolute;
   top: 10%;
+
 }
 
 #title-about h1 {
   color: white;
   font-size: 8rem;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 10px;
 }
 
 
@@ -191,7 +195,11 @@ body {
 #highlights h1 {
   width: 100vw;
   height: 200px;
-  /* border: 1px solid white; */
+  position: relative;
+  top: 10%;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 10px;
   display: flex;
   justify-content: center;
   color: white;
@@ -199,24 +207,32 @@ body {
   font-weight: 300;
 }
 
+
 #section {
   width: 100vw;
   height: 50px;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
+  position: relative;
+  top: 10%;
 }
 
 #section button {
   color: white;
   width: 500px;
   border: none;
-  background-color: #000001;
+  background-color: transparent;
   border-left: 1px solid #ffffff;
+  font-family: "hagrid", sans-serif;
+}
+
+#section #projects{
+  background-color: white;
 }
 
 #section button:hover {
-  background-color: #b3b3b4;
+  background-color: white;
   cursor: pointer;
 }
 
@@ -227,9 +243,10 @@ body {
 #section-items {
   position: relative;
   width: 100vw;
+  top: 8.5%;
   /* border: 1px solid rgb(255, 255, 255); */
   display: flex;
-  height: 480px;
+  height: 417px;
 }
 
 .items {
