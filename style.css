@@ -10,22 +10,23 @@ body {
   overflow-x: hidden;
 }
 
-#circle1{
-    top: 50%;
+#circle1 {
+  top: 50%;
 }
+
 #nav {
   position: relative;
   z-index: 10;
   position: fixed;
   margin-top: 10px;
   justify-self: center;
-  width: 30vw;
-  height: 60px;
+  width: 29vw;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.526);
+  border-radius: 18px;
+  background-color: rgba(255, 255, 255, 0.145);
   backdrop-filter: blur(40px);
   box-shadow: 5px 10px 40px black;
   color: white;
@@ -48,12 +49,15 @@ body {
 
 #miidle-side ul {
   display: flex;
-  gap: 60px;
   align-items: center;
-  justify-content: space-around;
+  padding: 8px;
+  gap: 10px;
 }
 
 #miidle-side ul li {
+  border: 1px solid rgba(255, 255, 255, 0.567);
+  border-radius: 10px;
+  padding: 15px 20px;
   list-style: none;
 }
 
@@ -61,12 +65,20 @@ body {
   text-decoration: none;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
+  font-weight: 300;
 }
 
-#miidle-side ul li a:hover {
-  text-decoration: underline;
+#miidle-side ul li:hover,
+#miidle-side ul li:focus {
+  border: 1px solid #ffd500;
+  border-radius: 10px;
+  padding: 15px 20px;
 }
+#miidle-side ul li a:hover,
+#miidle-side ul li a:focus{
+  color:#ffd500 ;
+}
+
 
 .page {
   width: 100vw;
@@ -82,14 +94,17 @@ body {
   background-image: url(images/Download\ 4k\ Elegant\ black\ gradient\ smooth\ animation\ background_\ Black\ clean\ corporate\ background\ video\ loop.\ for\ free.png);
   background-size: cover;
 }
-#Portfolio{
+
+#Portfolio {
   color: white;
   position: absolute;
   left: 2%;
   top: 2%;
+  font-family: "peridot-pe-variable", sans-serif;
+  font-variation-settings: "ital" 0, "wdth" 100, "wght" 800;
 }
 
-#FrontEnd{
+#FrontEnd {
   user-select: none;
   color: #ffffffd0;
   position: absolute;
@@ -101,13 +116,6 @@ body {
   font-family: "Special Gothic Expanded One", sans-serif;
   z-index: 4;
   filter: drop-shadow(0 0 2px #ffffff) drop-shadow(0 0 8px #ffffff);
-}
-
-#connection{
-  width: 20px;
-}
-#connection ul li a img{
-  width: 20px;
 }
 
 #home img {
@@ -147,7 +155,7 @@ body {
 }
 
 
-#para span{
+#para span {
   font-size: 1.9rem;
   font-weight: 600;
   color: #ffffff;
@@ -161,7 +169,7 @@ body {
   height: 400px;
   /* font-size: 1.2rem; */
   padding: 10px;
-  font-family:  "Sen", sans-serif;
+  font-family: "Sen", sans-serif;
   font-weight: 200;
   /* border: 1px solid white; */
   color: #e4e4e4;
@@ -223,6 +231,7 @@ body {
   color: black;
   cursor: pointer;
 }
+
 #section button:focus {
   background-color: white;
   color: black;
@@ -254,35 +263,41 @@ body {
 }
 
 #project-items {
-    visibility: visible;
-    border-bottom: 2px solid black;
+  visibility: visible;
+  border-bottom: 2px solid black;
 }
+
 #work-exp,
 #certificate-items,
 #achievement-items {
-    visibility: hidden;
+  visibility: hidden;
 }
+
 .project-img {
-    /* border: 1px solid black; */
-    width: 450px;
-    height: 300px;
-    margin: 50px;
-    flex-shrink: 0;
-    border-radius: 30px;
-    background-size: cover;
-    background-position: center;
-    cursor: pointer;
+  /* border: 1px solid black; */
+  width: 450px;
+  height: 300px;
+  margin: 50px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
 
 }
-#pinterest{
+
+#pinterest {
   background-image: url(images/pinterest.png);
 }
-#youtube{
+
+#youtube {
   background-image: url(images/youtube.png);
 }
-#login-reg{
+
+#login-reg {
   background-image: url(images/login.png);
 }
-#googleform{
+
+#googleform {
   background-image: url(images/google-form.png);
 }
