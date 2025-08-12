@@ -14,11 +14,12 @@ body {
     top: 50%;
 }
 #nav {
+  position: relative;
   z-index: 10;
   position: fixed;
   margin-top: 10px;
   justify-self: center;
-  width: 70vw;
+  width: 30vw;
   height: 60px;
   display: flex;
   align-items: center;
@@ -38,20 +39,17 @@ body {
   transition-timing-function: ease-in-out;
 }
 
-#left-side {
-  margin-left: 20px;
-  display: flex;
-  align-items: center;
-}
-
 #miidle-side {
-  width: 30vw;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
   height: 60px;
 }
 
 #miidle-side ul {
   display: flex;
-  margin-top: 20px;
+  gap: 60px;
+  align-items: center;
   justify-content: space-around;
 }
 
@@ -70,31 +68,6 @@ body {
   text-decoration: underline;
 }
 
-#right-side {
-  width: 15vw;
-  height: 60px;
-}
-
-#right-side ul {
-  display: flex;
-  height: 40px;
-  align-items: center;
-  margin-top: 15px;
-  justify-content: space-evenly;
-}
-
-#right-side ul li {
-  list-style: none;
-}
-
-#right-side ul li img {
-  width: 30px;
-}
-
-#right-side ul li img:hover {
-  filter: drop-shadow(0 0 5px #ffffff) drop-shadow(0 0 15px #ffffff);
-}
-
 .page {
   width: 100vw;
   height: 100vh;
@@ -109,8 +82,14 @@ body {
   background-image: url(images/Download\ 4k\ Elegant\ black\ gradient\ smooth\ animation\ background_\ Black\ clean\ corporate\ background\ video\ loop.\ for\ free.png);
   background-size: cover;
 }
+#Portfolio{
+  color: white;
+  position: absolute;
+  left: 2%;
+  top: 2%;
+}
 
-#home h1 {
+#FrontEnd{
   user-select: none;
   color: #ffffffd0;
   position: absolute;
@@ -122,6 +101,13 @@ body {
   font-family: "Special Gothic Expanded One", sans-serif;
   z-index: 4;
   filter: drop-shadow(0 0 2px #ffffff) drop-shadow(0 0 8px #ffffff);
+}
+
+#connection{
+  width: 20px;
+}
+#connection ul li a img{
+  width: 20px;
 }
 
 #home img {
@@ -227,18 +213,25 @@ body {
   font-family: "hagrid", sans-serif;
 }
 
-#section #projects{
+/* #section #projects{
   background-color: white;
-}
+  color: black;
+} */
 
 #section button:hover {
   background-color: white;
+  color: black;
+  cursor: pointer;
+}
+#section button:focus {
+  background-color: white;
+  color: black;
   cursor: pointer;
 }
 
-#section button :focus {
+/* #section button :focus {
   border-bottom: 2px solid rgb(255, 255, 255);
-}
+} */
 
 #section-items {
   position: relative;
