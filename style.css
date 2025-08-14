@@ -61,23 +61,22 @@ body {
   list-style: none;
 }
 
-#miidle-side ul li a {
+#miidle-side ul a {
   text-decoration: none;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 300;
 }
 
-#miidle-side ul li:hover,
-#miidle-side ul li:focus {
-  border: 1px solid #ffd500;
+#miidle-side ul li:hover {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
   border-radius: 10px;
   padding: 15px 20px;
+  color: black ;
 }
-#miidle-side ul li a:hover,
-#miidle-side ul li a:focus{
-  color:#ffd500 ;
-}
+/* #miidle-side ul li a:hover{
+} */
 
 
 .page {
@@ -103,10 +102,15 @@ body {
   font-family: "peridot-pe-variable", sans-serif;
   font-variation-settings: "ital" 0, "wdth" 100, "wght" 800;
 }
+#Portfolio span{
+  color: rgb(0, 64, 255);
+  color: transparent; 
+  -webkit-text-stroke: 0.4px #ffffff4c
+}
 
 #FrontEnd {
   user-select: none;
-  color: #ffffffd0;
+  color: #ffffff;
   position: absolute;
   top: 17%;
   height: 200px;
@@ -115,8 +119,11 @@ body {
   width: 100vw;
   font-family: "Special Gothic Expanded One", sans-serif;
   z-index: 4;
-  filter: drop-shadow(0 0 2px #ffffff) drop-shadow(0 0 8px #ffffff);
+  /* filter: drop-shadow(0 0 2px #ffffff) drop-shadow(0 0 8px #ffffff); */
+
 }
+
+
 
 #home img {
   user-select: none;
@@ -212,7 +219,7 @@ body {
   top: 10%;
 }
 
-#section button {
+.section-button {
   color: white;
   width: 500px;
   border: none;
@@ -221,18 +228,18 @@ body {
   font-family: "hagrid", sans-serif;
 }
 
-/* #section #projects{
-  background-color: white;
-  color: black;
-} */
+#projects{
+  border: none;
+}
 
-#section button:hover {
-  background-color: white;
-  color: black;
+.section-button:hover {
+  background-color: rgba(255, 255, 255, 0.145);
+  backdrop-filter: blur(40px);
+  color: white;
   cursor: pointer;
 }
 
-#section button:focus {
+.section-button:focus {
   background-color: white;
   color: black;
   cursor: pointer;
@@ -274,19 +281,18 @@ body {
 }
 
 .project-img {
-  /* border: 1px solid black; */
+  /* border: 1px solid rgb(255, 255, 255); */
   width: 450px;
   height: 300px;
   margin: 50px;
   flex-shrink: 0;
-  border-radius: 30px;
+  border-radius: 40px;
   background-size: cover;
-  background-position: center;
+  background-position:top;
   cursor: pointer;
-
+  position: relative;
 }
-
-#pinterest {
+#pinterest{
   background-image: url(images/pinterest.png);
 }
 
@@ -300,4 +306,22 @@ body {
 
 #googleform {
   background-image: url(images/google-form.png);
+}
+
+.box{
+  position: absolute;
+  border-radius: 40px;
+  z-index: 2;
+  background: black;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+   transition: background-color 0.3s ease-in, backdrop-filter 0.3s ease-in;
+
+}
+.box:hover,
+.box:focus{
+  background-color: rgba(0, 0, 0, 0.349);
+  backdrop-filter: blur(40px);
+  transition: background-color 0.8s ease-out, backdrop-filter 0.8s ease-out;
 }
