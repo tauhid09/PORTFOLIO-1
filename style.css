@@ -281,9 +281,9 @@ body {
 }
 
 .project-img {
-  /* border: 1px solid rgb(255, 255, 255); */
-  width: 450px;
-  height: 300px;
+  border: 1px solid #ffffff;
+  width: 300px;
+  height: 350px;
   margin: 50px;
   flex-shrink: 0;
   border-radius: 40px;
@@ -291,37 +291,36 @@ body {
   background-position:top;
   cursor: pointer;
   position: relative;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
 }
-#pinterest{
+#pinterest-img{
   background-image: url(images/pinterest.png);
 }
-
-#youtube {
-  background-image: url(images/youtube.png);
+.box-img{
+  margin: 10px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  width: 90%;
+  height: 40%;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0 40px #000000;
 }
-
-#login-reg {
-  background-image: url(images/login.png);
+.section-title{
+  color: #131313;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
-
-#googleform {
-  background-image: url(images/google-form.png);
-}
-
-.box{
-  position: absolute;
+.underline{
+  width: 200px;
+  height: 7px;
   border-radius: 40px;
-  z-index: 2;
-  background: black;
-  background: transparent;
-  width: 100%;
-  height: 100%;
-   transition: background-color 0.3s ease-in, backdrop-filter 0.3s ease-in;
+  background: linear-gradient(to right, #000000, #e6e6e6);
+  /* border: 1px solid black; */
+}
 
-}
-.box:hover,
-.box:focus{
-  background-color: rgba(0, 0, 0, 0.349);
-  backdrop-filter: blur(40px);
-  transition: background-color 0.8s ease-out, backdrop-filter 0.8s ease-out;
-}
