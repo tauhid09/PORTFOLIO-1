@@ -281,7 +281,7 @@ body {
 }
 
 .project-img {
-  border: 1px solid #ffffff;
+  /* border: 1px solid #ffffff; */
   width: 300px;
   height: 350px;
   margin: 50px;
@@ -292,6 +292,8 @@ body {
   cursor: pointer;
   position: relative;
   background-color: #ffffff;
+  /* background-color: #ffffff2b;
+  backdrop-filter: blur(40px); */
   display: flex;
   flex-direction: column;
   justify-content:flex-start;
@@ -311,7 +313,7 @@ body {
   box-shadow: 0 0 40px #000000;
 }
 .section-title{
-  color: #131313;
+  color: #000000;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
