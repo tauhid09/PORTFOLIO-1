@@ -318,11 +318,14 @@ body {
   font-weight: 700;
   font-style: normal;
 }
-.underline{
+/* .underline{
   width: 200px;
   height: 7px;
   border-radius: 40px;
   background: linear-gradient(to right, #000000, #e6e6e6);
-  /* border: 1px solid black; */
-}
+   border: 1px solid black; 
+} */
 
+.skills li{
+  text-decoration: none;
+}
